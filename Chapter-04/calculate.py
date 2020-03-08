@@ -4,7 +4,7 @@
 
     1. python3中,'/'为真除,无需引入'__future__'模块;
     2. Python3中,unicode()更换换为 str();
-    3. P8E规范：import避免使用'*'.(*会导入包下的全部模块，降低程序运行速度)
+    3. PE8规范：import避免使用'*'.(*会导入包下的全部模块，降低程序运行速度)
 '''
 
 from math import *

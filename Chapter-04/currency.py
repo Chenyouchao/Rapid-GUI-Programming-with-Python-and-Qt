@@ -40,7 +40,7 @@ class Form(QDialog):
         grid.addWidget(self.fromComboBox, 1, 0)
         grid.addWidget(self.fromSpinBox, 1, 1)
         grid.addWidget(self.toComboBox, 2, 0)
-        grid.addWidget(self.toLabel, 2, 2)
+        grid.addWidget(self.toLabel, 2, 1)
         
         self.setLayout(grid)    # 将布局设置在当前对象上
 
